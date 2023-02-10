@@ -1,0 +1,98 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    /* background-color: #005082; */
+
+  
+ 
+        body{
+    background-color: #0c4060e8;
+ }
+
+h5{
+    color:white
+}
+
+.carousel-item {
+    margin: 150px 370px; 
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* margin-left: 300px;
+    margin-top: 100px; */
+    height: 60%;
+    width: 60%;
+}
+
+.nav-item1, .nav-item2 {
+margin-right: 50px;
+}
+
+.nav-item1 {
+    
+    margin-left: 910px;
+}
+
+
+@media screen and (max-width: 200px) {
+    .background h1 {
+        font-size: 10vmin;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 8%;
+    }
+
+
+
+
+/* .cta {
+    position: absolute;
+    width: 10%;
+    min-width: 250px;
+    right: 10%;
+    bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem; */
+
+}
+
+#intro {
+    border-color: #fff;
+    width: 50%;
+    margin: -100px -50px;
+    position: absolute;
+    font-size: 100px;
+    right: 10%;
+    bottom: 10px;
+    color: #fff;
+    min-width: 250px;
+    font-family: monospace;
+    font-weight: bold;
+
+} 
+
+
+  
+  @media only screen and (min-width: 200px) and (max-width: 600px) {
+      .Pic {
+          max-width: 50%;
+      }
+  }
+
+  @media only screen and (min-width: 200px) {
+      .Pic {
+          max-width: 350px;
+      }
+  }
+
+  .Pic{
+   border-radius: 50%;
+   margin: 100px 100px;
+
+  }
+  
+svg.bi {
+
+    width: 100px;
+    height: 100px;
+}
